@@ -1,0 +1,3 @@
+# React Native useEffect Cleanup Error
+
+This repository demonstrates a common error in React Native when using the `useEffect` hook with a cleanup function. The issue arises when the cleanup function attempts to access or modify component state after the component has unmounted, leading to errors. The solution involves checking if the component is still mounted before accessing state variables in the cleanup function.
